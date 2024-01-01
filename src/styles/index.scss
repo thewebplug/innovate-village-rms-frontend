@@ -1,0 +1,20 @@
+@import 'base/reset';
+
+@import 'utils/variables';
+
+@import 'base/fonts';
+@import 'base/global';
+
+@import 'shared/typography';
+@import 'shared/fields';
+@import 'shared/buttons';
+
+@import 'components/sidebar';
+
+@import 'pages/school/onboarding';
+@import 'pages/admin/home';
+@import 'pages/admin/regPage';
+@import 'pages/admin/students';
+@import 'pages/student/login';
+@import 'pages/student/result';
+@import 'pages/student/scratchCard';

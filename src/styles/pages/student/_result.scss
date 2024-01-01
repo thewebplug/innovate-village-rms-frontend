@@ -1,0 +1,79 @@
+.result {
+  background-color: #f0f0f0;
+  padding: 40px;
+  height: 100vh;
+
+  &__main {
+    background-color: #fff;
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+
+    .title-flex {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      margin-bottom: 3.2rem;
+
+      &__logo {
+        img {
+          width: 6rem;
+          height: auto;
+        }
+      }
+
+      &__container {
+        float: right;
+        .flex-container__title {
+          font-size: 3rem;
+          font-weight: 500;
+          margin-bottom: 0.3rem;
+        }
+        .flex-container__subtitle {
+          font-size: 1.4rem;
+          color: #909090;
+          font-weight: 300;
+          text-align: end;
+        }
+        .flex-container__id {
+          margin-bottom: 2rem;
+          span {
+            color: #00a85a;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .main__table {
+      border-radius: 16px;
+      font-weight: 600;
+      height: 48rem;
+      .main__table-head {
+        background-color: #00a85a;
+        .table__row {
+          color: #fff;
+        }
+      }
+      .main__table-body {
+        .table_row {
+          color: #fff;
+        }
+      }
+
+      .table__row {
+        font-size: 1.4rem;
+      }
+
+      .grade {
+        font-weight: 700;
+        color: #909090;
+      }
+
+      .grade_exc {
+        color: #00a85a;
+      }
+    }
+  }
+}
